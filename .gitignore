@@ -1,0 +1,29 @@
+# Visual Studio
+.vscode/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+*.user
+*.aps
+*.ncb
+*.suo
+*.sln.docstates
+*.vsp
+*.vspx
+*.sap
+*.log
+*.tlog
+*.lastbuildstate
+*.ipch
+*.sdf
+
+# External libraries (if you want people to provide their own)
+# lib/libmysql.lib
+# lib/libmysql.dll
+
+# OS files
+.DS_Store
+Thumbs.db
