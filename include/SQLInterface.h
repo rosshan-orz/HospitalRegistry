@@ -15,7 +15,7 @@ public:
 	MYSQL_RES* res;	//result
 	MYSQL_ROW row;
 	MYSQL mysqlCon;	//Connect
-	char sql[SQL_MAX];	// SQLÓï¾ä
+	char sql[SQL_MAX];	// SQL
 
 	bool Connect_MySQL();
 
