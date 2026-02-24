@@ -1,45 +1,45 @@
-# 医院预约挂号系统 (Hospital Appointment Registration System)
+# Hospital Appointment Registration System
 
-这是一个基于 **C++ (MFC)** 和 **MySQL** 数据库开发的医院预约挂号系统。该项目旨在提高医疗服务效率，简化患者挂号流程，并为医院管理人员提供便捷的医生排班与数据统计工具。
+This is a hospital appointment registration system developed based on **C++ (MFC)** and **MySQL** database. The project aims to improve medical service efficiency, simplify the patient registration process, and provide hospital administrators with convenient tools for doctor scheduling and data statistics.
 
-## 🚀 项目概览
+## 🚀 Project Overview
 
-- **开发平台**: Visual Studio 2022
-- **技术框架**: MFC (Microsoft Foundation Classes)
-- **数据库**: MySQL 8.0
-- **核心功能**:
-  - **多角色登录系统**: 支持患者和管理员两种身份登录与注册。
-  - **患者端**: 
-    - 医生信息查询：按科室和日期查看医生排班。
-    - 预约挂号：在线选择医生及就诊时间段进行预约。
-    - 个人记录：查看历史挂号记录及当前预约状态。
-  - **管理员端**:
-    - 医生信息管理：维护医生基本资料（姓名、科室、职位等）。
-    - 医生排班管理：设置及更新医生每周的出诊计划。
-    - 挂号统计：统计医院就医情况，生成报表。
+- **Development Platform**: Visual Studio 2022
+- **Technology Framework**: MFC (Microsoft Foundation Classes)
+- **Database**: MySQL 8.0
+- **Core Features**:
+  - **Multi-role Login System**: Supports login and registration for two identities: patients and administrators.
+  - **Patient Side**:
+    - Doctor Information Query: View doctor schedules by department and date.
+    - Appointment Registration: Book appointments online by selecting a doctor and available time slots.
+    - Personal Records: View past registration history and current appointment status.
+  - **Administrator Side**:
+    - Doctor Information Management: Maintain basic doctor information (name, department, position, etc.).
+    - Doctor Schedule Management: Set and update doctors' weekly consultation plans.
+    - Registration Statistics: Generate reports by analyzing hospital visitation data.
 
-## 📁 目录结构
+## 📁 Directory Structure
 
 ```text
 .
-├── include/        # 头文件 (.h)
-├── src/            # 源文件 (.cpp)
-├── resources/      # 资源文件 (.rc, 资源 ID 定义等)
-├── lib/            # 第三方库 (MySQL 连接库 libmysql.dll/lib)
-├── sql/            # 数据库脚本 (后续补全)
-├── Hosp_Reg_UI.sln # Visual Studio 解决方案文件
-└── README.md       # 项目说明
+├── include/        # Header files (.h)
+├── src/            # Source files (.cpp)
+├── resources/      # Resource files (.rc, resource ID definitions, etc.)
+├── lib/            # Third-party libraries (MySQL connector libmysql.dll/lib)
+├── sql/            # Database scripts (to be completed later)
+├── Hosp_Reg_UI.sln # Visual Studio Solution file
+└── README.md       # Project description
 ```
 
-## 🛠 开发背景
+## 🛠 Development Background
 
-本项目为南京邮电大学《程序设计（上机）》课程报告成果。通过该项目，团队深入实践了从 C 语言向 C++ 面向对象编程的转变，掌握了 MFC 界面开发与数据库交互的核心技术。
+This project is the outcome of the *Programming (Lab)* course report at Nanjing University of Posts and Telecommunications. Through this project, the team gained in-depth practical experience in transitioning from C to C++ object-oriented programming and mastered the core technologies of MFC interface development and database interaction.
 
-## 👥 提交者信息 (Contributors)
+## 👥 Contributor Information
 
-韩秋实 @rosshan-orz
-* 罗一翔 @3344653704
-* 刘易 @users1234321
+*   Han Qiushi @rosshan-orz
+*   Luo Yixiang @3344653704
+*   Liu Yi @users1234321
 
 ---
-*注：本项目代码仅供学习交流使用。*
+*Note: The project code is for learning and exchange purposes only.*
